@@ -9,4 +9,11 @@ To train our syntax-aware neural models, you should set the train.sh and config.
 nohup ./train.sh 0 > log.txt 2>&1 &
 ```
 where 0 is the GPU id.
-We also give an example in ./Syntax-aware-DeepSRL-w-ELMo/exp-Tree-GRU-w-ELMo
+We also give an corresponding example in ./Syntax-aware-DeepSRL-w-ELMo/exp-Tree-GRU-w-ELMo/
+
+## Test
+For test, you should run the predict.sh presentated in the exp-Tree-GRU-w-ELMo/ dir.
+```bash
+./predict.sh 0
+```
+
