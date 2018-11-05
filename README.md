@@ -1,7 +1,7 @@
 # Syntax-aware Neural Semantic Role Labeling
 This repository contains codes and configs for training models presented in : [Syntax-aware Neural Semantic Role Labeling](XXX)
 
-We use the deep srl as our basic model. [Deep Semantic Role Labeling](https://github.com/luheng/deep_srl)
+We use the deep srl as our basic model. [Deep Semantic Role Labeling](https://github.com/luheng/deep_srl). And, to use our code, you should install pytorch >= 0.4.0.
 
 ## Train
 To train our syntax-aware neural models, you should set the train.sh and config.json. Then, run
